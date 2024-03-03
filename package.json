@@ -31,7 +31,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "author": "Ola Frankowska",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "lodash.clonedeep": "^4.5.9",
     "pinia": "^2.1.7"
