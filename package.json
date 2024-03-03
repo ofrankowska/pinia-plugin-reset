@@ -15,7 +15,7 @@
     "release": "pnpm publish --no-git-checks"
   },
   "keywords": [
-    "inia",
+    "pinia",
     "vue",
     "setup store",
     "reset store"
