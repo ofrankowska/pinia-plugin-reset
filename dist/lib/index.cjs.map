@@ -1,0 +1,1 @@
+{"version":3,"file":"index.cjs","sources":["../../src/index.ts"],"sourcesContent":[null],"names":["piniaPluginReset","store","initialState","cloneDeep","$state","$reset","$patch"],"mappings":"sGAGA,MAAMA,EAAmB,EAAGC,YAC1B,MAAMC,EAAeC,EAAUF,EAAMG,QACrCH,EAAMI,OAAS,KACbJ,EAAMK,OAAOH,EAAUD,GAAc,CACtC"}

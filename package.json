@@ -1,0 +1,54 @@
+{
+  "name": "pinia-plugin-reset",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vue plugin for resetting Pinia setup store",
+  "homepage": "https://github.com/ofrankowska/pinia-plugin-reset",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofrankowska/pinia-plugin-reset.git"
+  },
+  "scripts": {
+    "build:dev": "rollup -cw",
+    "build": "rollup -c",
+    "bumpp": "bumpp",
+    "release": "pnpm publish --no-git-checks"
+  },
+  "keywords": [
+    "inia",
+    "vue",
+    "setup store",
+    "reset store"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "author": "Ola Frankowska",
+  "license": "ISC",
+  "peerDependencies": {
+    "lodash.clonedeep": "^4.5.9",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/lodash.clonedeep": "^4.5.9",
+    "@types/node": "^20.11.24",
+    "bumpp": "^9.3.1",
+    "pinia": "^2.1.7",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  }
+}
