@@ -1,11 +1,9 @@
 # Pinia Plugin Reset
 
 ## Description
-
 Vue plugin for resetting Pinia setup store.
 
 ## Installation
-
 ```bash
 npm install pinia-plugin-reset
 ```
@@ -25,7 +23,6 @@ app.mount('#app')
 ```
 
 ## Usage
-
 ```js
 const store = useMyPiniaStore()
 
