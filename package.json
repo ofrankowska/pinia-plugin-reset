@@ -1,7 +1,7 @@
 {
   "name": "pinia-plugin-reset",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue plugin for resetting Pinia setup store",
   "homepage": "https://github.com/ofrankowska/pinia-plugin-reset",
   "repository": {
